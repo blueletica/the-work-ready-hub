@@ -1,288 +1,241 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Work Ready Hub</title>
-    <!-- Font Awesome CDN for social icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <style>
-        /* Reset and base styles */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #ffffff;
-            color: #000000;
-            line-height: 1.6;
-        }
-        a {
-            text-decoration: none;
-            color: inherit;
-        }
-        /* Header and Navigation */
-        header {
-            background: linear-gradient(90deg, #001f3f, #004080);
-            padding: 20px 0;
-            text-align: center;
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-        }
-        header img {
-            width: 100px;
-            height: auto;
-            margin-bottom: 10px;
-        }
-        nav {
-            margin-top: 10px;
-        }
-        nav a {
-            color: #ffffff;
-            margin: 0 15px;
-            font-weight: bold;
-            transition: color 0.3s;
-        }
-        nav a:hover {
-            color: #00bfff;
-        }
-        /* Hero Section */
-        .hero {
-            background-color: #001f3f;
-            color: #ffffff;
-            text-align: center;
-            padding: 100px 20px;
-        }
-        .hero h1 {
-            font-size: 3em;
-            margin-bottom: 20px;
-        }
-        .hero p {
-            font-size: 1.2em;
-            max-width: 600px;
-            margin: 0 auto;
-            margin-bottom: 30px;
-        }
-        .cta-button {
-            background-color: #00bfff;
-            color: #001f3f;
-            padding: 12px 30px;
-            border: none;
-            border-radius: 5px;
-            font-size: 1em;
-            cursor: pointer;
-            transition: background 0.3s;
-        }
-        .cta-button:hover {
-            background-color: #004080;
-        }
-    </style>
+
+    <title>The Work Ready Hub | Career Advice for Graduates & Remote Professionals</title>
+
+    <meta name="description"
+        content="Practical career guidance for graduates and remote professionals. Learn how to get hired, earn more, get promoted, and build healthy workplace boundaries.">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
+
 <body>
+
     <header>
-        <img src="logo.png" alt="The Work Ready Hub Logo">
-        <nav>
-            <a href="#hero">Home</a>
-            <a href="#focus">Our Focus</a>
-            <a href="#resources">Resources</a>
-            <a href="#about">About</a>
-            <a href="#connect">Connect</a>
+
+        <nav class="navbar">
+
+            <div class="logo">
+
+                <img src="Images/logo.png"
+                    alt="The Work Ready Hub Logo">
+
+                <h2>Work Ready Hub</h2>
+
+            </div>
+
+            <div>
+
+                <a href="index.html">Home</a>
+                <a href="resources.html">Resources</a>
+                <a href="about.html">About</a>
+                <a href="blog.html">Blog</a>
+                <a href="contact.html">Connect</a>
+
+            </div>
+
         </nav>
+
     </header>
-        <section class="hero" id="hero">
-        <h1>Build a Career You Control</h1>
-        <p>Practical career guidance for graduates and remote professionals who want to earn more, grow faster, and navigate the workplace with confidence.</p>
-        <button class="cta-button">Get Started</button>
+
+    <section class="hero">
+
+        <div class="container">
+
+            <h1>Career Advice That Puts You First</h1>
+
+            <p>
+
+                Whether you're searching for your first remote opportunity,
+                preparing for a promotion, negotiating your salary,
+                or learning how to protect yourself from workplace exploitation,
+                The Work Ready Hub provides practical career guidance you can trust.
+
+            </p>
+
+            <a href="resources.html" class="btn">
+
+                Explore Resources
+
+            </a>
+
+        </div>
+
     </section>
 
-    <section class="focus" id="focus">
-        <div class="focus-card">
-            <h3>Get Hired</h3>
-            <p>Learn how to land remote opportunities and make your mark.</p>
+    <section class="container">
+
+        <h2 class="section-title">
+
+            Our Focus
+
+        </h2>
+
+        <p class="section-subtitle">
+
+            Everything we create is designed to help you build a stronger,
+            healthier and more successful career.
+
+        </p>
+
+        <div class="grid">
+
+            <div class="card">
+
+                <i class="fas fa-briefcase fa-3x"></i>
+
+                <h3>Get Hired</h3>
+
+                <p>
+
+                    Practical strategies for landing your first remote opportunity,
+                    writing stronger CVs and succeeding in interviews.
+
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <i class="fas fa-sack-dollar fa-3x"></i>
+
+                <h3>Earn More</h3>
+
+                <p>
+
+                    Learn salary negotiation,
+                    understand your market value,
+                    and confidently increase your earning potential.
+
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <i class="fas fa-chart-line fa-3x"></i>
+
+                <h3>Grow Your Career</h3>
+
+                <p>
+
+                    Build visibility,
+                    prepare for promotions,
+                    and become a trusted professional inside your organisation.
+
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <i class="fas fa-shield-heart fa-3x"></i>
+
+                <h3>Protect Yourself</h3>
+
+                <p>
+
+                    Learn healthy workplace boundaries,
+                    communicate professionally,
+                    and confidently advocate for yourself.
+
+                </p>
+
+            </div>
+
         </div>
-        <div class="focus-card">
-            <h3>Earn More</h3>
-            <p>Understand salary negotiations and long-term income growth strategies.</p>
-        </div>
-        <div class="focus-card">
-            <h3>Grow Your Career</h3>
-            <p>Build visibility, influence, and promotion readiness in your remote role.</p>
-        </div>
-        <div class="focus-card">
-            <h3>Protect Yourself</h3>
-            <p>Set healthy boundaries and advocate for yourself in any workplace.</p>
-        </div>
+
     </section>
 
-    <section class
-        ="focus" id="focus">
+    <section class="container">
 
-    <div class="focus-card">
-        <h3>💼 Get Hired</h3>
-        <p>Learn how to land remote opportunities with confidence, even if you're just starting your career.</p>
-    </div>
+        <h2 class="section-title">
 
-    <div class="focus-card">
-        <h3>💰 Earn More</h3>
-        <p>Understand salary negotiations, market value, and long-term income growth strategies.</p>
-    </div>
+            Why The Work Ready Hub?
 
-    <div class="focus-card">
-        <h3>📈 Grow Your Career</h3>
-        <p>Build visibility, influence, leadership skills, and position yourself for promotion.</p>
-    </div>
+        </h2>
 
-    <div class="focus-card">
-        <h3>🛡 Protect Yourself</h3>
-        <p>Develop healthy workplace boundaries, communicate confidently, and advocate for yourself professionally.</p>
-    </div>
+        <p class="section-subtitle">
 
-</section>
+            Starting your career shouldn't feel like navigating a maze alone.
+            Too many talented graduates and remote professionals enter the workplace
+            without practical guidance on finding opportunities,
+            negotiating fair salaries,
+            or protecting themselves from unhealthy work environments.
 
-<section class="about" id="about">
+            Our mission is simple:
 
-    <h2>Why The Work Ready Hub Exists</h2>
+            <strong>help you build a career with confidence, clarity and purpose.</strong>
 
-    <p>
-        Starting your career can feel overwhelming. Many graduates and remote professionals
-        are expected to negotiate salaries, understand employment contracts, communicate
-        professionally, and navigate workplace challenges without ever being taught how.
-    </p>
+        </p>
 
-    <p>
-        The Work Ready Hub was created to provide practical, structured career guidance that
-        helps you make informed decisions, strengthen your professional skills, and build a
-        sustainable career with confidence.
-    </p>
+    </section>
 
-</section>
-<section class="resources" id="resources">
+    <footer>
 
-    <h2>Work Ready Hub Resource Vault</h2>
+        <div class="social">
 
-    <p class="section-intro">
-        Explore practical career resources designed to help you get hired, earn more,
-        grow professionally, and confidently navigate today's workplace.
-    </p>
+            <a href="https://www.linkedin.com/in/bahati-mulishi-ngakani-0947612ab/"
+                target="_blank"
+                rel="noopener">
 
-    <div class="resource-grid">
+                <i class="fab fa-linkedin"></i>
 
-        <div class="resource-card">
-            <h3>The Remote Job Starter Blueprint (2026 Edition)</h3>
-            <p>
-                Learn where to find genuine remote jobs, build a strong CV,
-                avoid common mistakes, and develop a structured job search strategy.
-            </p>
-
-            <a href="https://payhip.com/b/lDswX" target="_blank">
-                View Blueprint
             </a>
-        </div>
 
-        <div class="resource-card">
-            <h3>Remote Salary Strategy Blueprint</h3>
-            <p>
-                Understand how remote salaries are determined, negotiate confidently,
-                research your market value, and increase your earning potential.
-            </p>
+            <a href="https://youtube.com/@workreadyhub?si=gj5G-t7t1hKADA_G"
+                target="_blank"
+                rel="noopener">
 
-            <a href="https://payhip.com/b/ImbE4" target="_blank">
-                View Blueprint
+                <i class="fab fa-youtube"></i>
+
             </a>
-        </div>
 
-        <div class="resource-card">
-            <h3>Remote Promotion Blueprint</h3>
-            <p>
-                Learn how to increase your visibility, demonstrate leadership,
-                document achievements, and prepare for your next promotion.
-            </p>
+            <a href="https://www.tiktok.com/@workready0"
+                target="_blank"
+                rel="noopener">
 
-            <a href="https://payhip.com/b/bCJD0" target="_blank">
-                View Blueprint
+                <i class="fab fa-tiktok"></i>
+
             </a>
-        </div>
 
-        <div class="resource-card">
-            <h3>The Workplace Boundaries & Self-Advocacy Blueprint™</h3>
-            <p>
-                Build healthier workplace boundaries, communicate professionally,
-                handle difficult situations, and confidently advocate for yourself.
-            </p>
+            <a href="https://www.instagram.com/work_ready_hub/?hl=en"
+                target="_blank"
+                rel="noopener">
 
-            <a href="https://payhip.com/b/4xB9o" target="_blank">
-                View Blueprint
+                <i class="fab fa-instagram"></i>
+
             </a>
+
+            <a href="https://www.facebook.com/profile.php?id=61587493340198"
+                target="_blank"
+                rel="noopener">
+
+                <i class="fab fa-facebook"></i>
+
+            </a>
+
+            <a href="https://remoteinsights.blogspot.com/"
+                target="_blank"
+                rel="noopener">
+
+                <i class="fab fa-blogger"></i>
+
+            </a>
+
         </div>
 
-    </div>
+        <p>&copy; 2026 The Work Ready Hub. All Rights Reserved.</p>
 
-</section>
-<section class="learning">
+    </footer>
 
-    <h2>What You'll Learn</h2>
+</body>
 
-    <p class="section-intro">
-        Every blueprint is designed to provide practical strategies that you can apply immediately in your career.
-    </p>
-
-    <div class="learning-grid">
-
-        <div class="learning-card">
-            <h3>🚀 Remote Job Starter Blueprint</h3>
-
-            <ul>
-                <li>✔ How to get a remote job with no experience</li>
-                <li>✔ Where employers actually hire remotely</li>
-                <li>✔ Why applications get rejected</li>
-                <li>✔ CV structure for beginners</li>
-                <li>✔ The 7-Day Remote Job Kickstart Plan</li>
-                <li><strong>...and much more.</strong></li>
-            </ul>
-        </div>
-
-        <div class="learning-card">
-            <h3>💰 Salary Strategy Blueprint</h3>
-
-            <ul>
-                <li>✔ How remote salaries are decided</li>
-                <li>✔ Salary negotiation psychology</li>
-                <li>✔ Researching your market value</li>
-                <li>✔ Raise request strategies</li>
-                <li>✔ Building long-term income growth</li>
-                <li><strong>...and much more.</strong></li>
-            </ul>
-        </div>
-
-        <div class="learning-card">
-            <h3>📈 Promotion Blueprint</h3>
-
-            <ul>
-                <li>✔ Why remote employees get overlooked</li>
-                <li>✔ Building influence remotely</li>
-                <li>✔ Creating a promotion case document</li>
-                <li>✔ Leadership without the title</li>
-                <li>✔ Becoming valuable without burnout</li>
-                <li><strong>...and much more.</strong></li>
-            </ul>
-        </div>
-
-        <div class="learning-card">
-            <h3>🛡 Workplace Boundaries Blueprint™</h3>
-
-            <ul>
-                <li>✔ Recognising workplace red flags</li>
-                <li>✔ Professional boundary setting</li>
-                <li>✔ Managing micromanagement</li>
-                <li>✔ Protecting your time</li>
-                <li>✔ Knowing when it's time to move on</li>
-                <li><strong>...and much more.</strong></li>
-            </ul>
-        </div>
-
-    </div>
-
-</section>
+</html>
