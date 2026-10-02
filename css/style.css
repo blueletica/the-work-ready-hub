@@ -893,6 +893,13 @@ nav a:hover::after{
 
 }
 
+.remote{
+
+    background:#e8f4ff;
+
+    color:#0d3b66;
+
+}
 
 /* =====================================================
    TOPIC TAGS
