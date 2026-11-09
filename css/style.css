@@ -1316,4 +1316,70 @@ margin:8px;
 
 }
 
+
+/* =========================================
+   CANDIDATE PAGE - PROFESSIONAL FOOTER
+   ========================================= */
+
+footer .footer-content {
+    display: grid;
+    grid-template-columns: 1.5fr repeat(3, 1fr);
+    gap: 40px;
+    align-items: start;
+    padding: 65px 0 45px;
+}
+
+footer .footer-brand h3,
+footer .footer-links h3 {
+    color: #ffffff;
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+
+footer .footer-brand p {
+    color: #d4e2f0;
+    line-height: 1.8;
+    margin-bottom: 14px;
+}
+
+footer .footer-links a {
+    display: block;
+    color: #d4e2f0;
+    text-decoration: none;
+    margin-bottom: 13px;
+    line-height: 1.6;
+    transition: color 0.2s ease;
+}
+
+footer .footer-links a:hover {
+    color: #29b6f6;
+}
+
+footer .footer-bottom {
+    border-top: 1px solid rgba(255,255,255,0.18);
+    text-align: center;
+    padding: 24px 0;
+}
+
+footer .footer-bottom p {
+    color: #d4e2f0;
+    margin: 0;
+    font-size: 14px;
+}
+
+@media (max-width: 900px) {
+    footer .footer-content {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 30px;
+    }
+}
+
+@media (max-width: 600px) {
+    footer .footer-content {
+        grid-template-columns: 1fr;
+        gap: 25px;
+        padding: 45px 0 30px;
+    }
+}
+
 }
