@@ -1383,3 +1383,51 @@ footer .footer-bottom p {
 }
 
 }
+
+
+
+/* DESKTOP FOOTER FIX */
+
+@media screen and (min-width: 901px) {
+
+    footer .footer-content {
+        display: grid;
+        grid-template-columns: 1.5fr repeat(3, minmax(0, 1fr));
+        gap: 35px;
+        align-items: start;
+        padding: 65px 0 45px;
+    }
+
+    footer .footer-brand,
+    footer .footer-links {
+        display: block;
+        min-width: 0;
+    }
+
+    footer .footer-brand h3,
+    footer .footer-links h3 {
+        display: block;
+        color: #ffffff;
+        font-size: 19px;
+        margin-bottom: 20px;
+    }
+
+    footer .footer-brand p {
+        display: block;
+        color: #d4e2f0;
+        line-height: 1.8;
+        margin-bottom: 14px;
+    }
+
+    footer .footer-links a {
+        display: block;
+        color: #d4e2f0;
+        text-decoration: none;
+        margin-bottom: 13px;
+        line-height: 1.6;
+    }
+
+    footer .footer-links a:hover {
+        color: #29b6f6;
+    }
+}
